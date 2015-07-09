@@ -162,12 +162,12 @@
       margin: 0 auto;
     }
 
-    .pollution a {
-      color: teal;
+    .pollution a, .redplay a {
+      color: #1F4F82;
       text-decoration: none;
     }
 
-    .pollution a:hover {
+    .pollution a:hover, .redplay a:hover {
       text-decoration: underline;
     }
 
@@ -222,9 +222,12 @@
       background-position: left center;
       padding-left: 35px;
       line-height: 2.5em;
-      border-bottom: solid white 1px;
       font-weight: bold;
+      font-size: 1.2em;
 
+    }
+    .bb {
+      border-bottom: solid #ddd 1px;
     }
 
   </style>  
@@ -304,9 +307,9 @@
           <h2>Watch/Listen<img src="boxes.png"></h2>
           <img src="video.png">
           <ul class="redplay">
-            <li>BBC News Channel</li>
-            <li>Radio 5 live</li>
-            <li>Osborne Questioned on Budget</li>
+            <a href=""><li class="bb"><strong>BBC News Channel</strong></li></a>
+            <a href=""><li class="bb"><strong>Radio 5 live</strong></li></a>
+            <a href=""><li><strong>Osborne Questioned on Budget</strong></li></a>             
           </ul>
         </div>
 
